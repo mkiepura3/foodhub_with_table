@@ -1,4 +1,4 @@
-# Filebox With Table
+# Foodhub With Table
 
 In this project, we'll practice using tables for layout and learn a few new CSS properties. Our target for this project looks like [this](https://foodhub-with-table-target.herokuapp.com/landing.html).
 
