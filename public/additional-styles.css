@@ -16,9 +16,8 @@ body{
 }
 
 .navigation-header{
-  font-size: 25px;
-  font-weight: bold;
-  font-stretch:extra-condensed;
+  font-family: 'Passion One', cursive;
+  font-size: xx-large;
 }
 
 .hero {
