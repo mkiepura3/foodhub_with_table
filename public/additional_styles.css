@@ -15,7 +15,7 @@ border: thin red solid
   font-family: 'Montserrat', sans-serif;
   background: url("main-hero.jpg") no-repeat center center;
   background-size: cover;
-  height: 300px;
+  height: 400px;
 }
 
 button{
@@ -28,8 +28,7 @@ button{
 
 body{
   font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
-  font-weight: bold;
+  font-size: 16px;
 
 }
 
@@ -38,7 +37,7 @@ body{
 }
 
 .site-nav{
-  background-color: red;
+  background-color: rgb(246,52,64);
   color: white;
 }
 
@@ -47,6 +46,51 @@ body{
   border-radius: 50%;
 }
 
+.why-order-image{
+  width: 200px;
+  border-radius: 50%;
+}
+
 .how-to-cell{
   text-align: center;
+}
+
+.why-order-cell{
+  text-align: center;
+}
+
+.nav-logo{
+  font-family: "Passion One", cursive;
+  font-size: 30px;
+  background-color: rgb(246,52,64);
+  color: white;
+}
+
+.main-content{
+  background-color: rgb(236,236,236);
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.soundbites-image{
+  width:50px;
+  border-radius: 50%;
+}
+
+.download-hero{
+  color: white;
+  text-align:center;
+  font-family: 'Montserrat', sans-serif;
+  background: url("download-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 400px;
+}
+
+.sub-heading{
+  font-size: 22px;
 }
