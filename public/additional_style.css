@@ -1,3 +1,41 @@
-h1{
-  color: blue
+.main-content{
+  width: 100%;
+}
+
+.heading-row{
+  text-align: center;
+}
+
+.how-to-cell{
+  text-align: center;
+}
+
+.how-to-image{
+  width: 200px;
+  border-radius:50%;
+}
+
+td{
+  border: thin red solid;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background: url("main-hero.jpg"); no-repeat center center;
+ background-size: cover;
+ height: 300px;
+}
+
+button {
+  background-color: rgb(8, 126, 229);
+  color: white;
+  height: 40px;
+  width: 200px;
+  border-radius:5px;
 }
