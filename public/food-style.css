@@ -8,6 +8,21 @@ td {
 body{
     font-family: 'Montserrat', sans-serif;
 }
+
+.foodhub-title{
+  font-family: 'Passion One', cursive;
+  font-size:35px;
+  padding-left: 10px;
+  color:white;
+  background-color: rgb(246,52,64);
+}
+
+.header-bar{
+  color:white;
+  padding-left:10px;
+  background-color:rgb(246,52,64);
+}
+
 .hero{
   color:white;
   text-align: center;
@@ -23,7 +38,7 @@ button{
   border-radius:5px;
 }
 
-.how-to{
+.how-to,.sound-bite{
   text-align: center;
 }
 
@@ -34,4 +49,72 @@ button{
 
 .how-to-photocell{
   text-align:center;
+}
+
+.sound-bite{
+  background-color: rgb(238,238,238);
+}
+
+.user-photo{
+  width:50px;
+  border-radius:50%;
+}
+
+.user-cell{
+  text-align:center;
+  background-color: rgb(238,238,238);
+}
+
+.download-hero{
+  text-align:center;
+  color:white;
+  background: url("download-hero.jpg") no-repeat center center;
+  background-size:cover;
+  height:400px;
+}
+
+h1{
+  font-size: 25px;
+}
+
+h2{
+  font-size: 20px;
+}
+
+.badge{
+  width:200px;
+}
+
+.whyorder{
+  text-align:center;
+    background-color: rgb(238,238,238);
+}
+
+.reasons{
+  text-align:center;
+  background-color: rgb(238,238,238);
+}
+
+.reasons-photo{
+  width:200px;
+  border-radius:50%;
+}
+
+.about{
+  text-align:center;
+  vertical-align: text-top;
+}
+
+.about-desc{
+  padding-left: 10px;
+  padding-right:10px;
+}
+
+.footer{
+  background-color:rgb(50, 50, 170);
+  text-align: left;
+  vertical-align:text-top;
+  padding-left: 10px;
+  color:white;
+  line-height: 2;
 }
