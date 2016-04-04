@@ -39,9 +39,14 @@ color: white;
   background-color: rgb(246,52,64);
 }
 
+.padding{
+  padding-left:20px;
+  padding-right: : 20px;
+}
+
 .foodhub-font{
   font-family: 'Passion One', bold;
-  font-size: xx-large;
+  font-size: 32px;
 }
 
 body{
@@ -58,6 +63,10 @@ body{
   background: url("main-hero.jpg") no-repeat center center;
   background-size: cover;
   height: 300px;
+}
+
+.vertical-align{
+vertical-align: top;
 }
 
 .footer{
