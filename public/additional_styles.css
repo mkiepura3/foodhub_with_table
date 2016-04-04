@@ -1,0 +1,19 @@
+.main-content {
+  width: 100%;
+}
+
+td {
+  border: thin red solid;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hero {
+  color: white;
+  text-align: center;
+  background: url("main-hero.jpg")no-repeat center center;
+  background-size: cover;
+  height: 300px;
+}
