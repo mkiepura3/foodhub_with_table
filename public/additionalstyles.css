@@ -1,0 +1,91 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+h2{
+  font-size: 18px;
+  text-align: center;
+}
+
+.main-content {
+  width: 100%;
+}
+td{
+  border: thin red solid;
+}
+.hero{
+  text-align: center;
+  color: white;
+  background-image: url(main-hero.jpg); no-repeat center center; background-size: cover; height: 300px;
+}
+.navigation-p{
+  color:white; font-size: 16px; font-style: bold;
+}
+.navigation{
+  background-color: rgb(246, 52, 64);
+}
+
+.logo{
+  font-size: 24px;
+  color: white;
+  text-transform: uppercase;
+  text-align: left;
+}
+button{
+  background-color: rgb(0, 126, 229);
+  border-radius: 5px;
+  color: white;
+  height: 30px;
+  width: 150px;
+}
+.download-apps{
+  text-align: center;
+  color: white;
+  background-image: url(download-hero.jpg); no-repeat center center; background-size: cover; height: 300px;
+}
+
+.badge{
+  width: 150px;
+  padding-top: 10px;
+  padding-left: 2px;
+  padding right: 2px;
+}
+.circle{
+  width:200px;
+  border-radius: 50%;
+}
+
+.small-circle{
+  width:100px;
+  border-radius: 50%;
+  vertical-align: top;
+}
+
+.howtofood{
+  padding: 25px;
+}
+h3{
+  font-size: 15px;
+}
+
+.bold-text{
+  font-weight: bold;
+}
+
+.about-foodhub{
+  text-align: left;
+vertical-align: top;
+}
+
+.about-head{
+  vertical-align: top;
+}
+.knockout{
+  color: white;
+}
+
+.blue-background {
+  background-color: rgb(50, 50, 170);
+  text-align: left;
+  color: white;
+}
