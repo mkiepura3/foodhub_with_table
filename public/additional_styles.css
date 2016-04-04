@@ -1,0 +1,40 @@
+.main-content{
+width: 100%;
+}
+
+td{
+  border: thin red solid;
+}
+
+.hero{
+  color: white;
+  text-align: center;
+  background: url("main-hero.jpg")no-repeat center center;
+  background-size: cover;
+  height: 300px;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.heading-row {
+  text-align: center;
+}
+
+button{
+  color: white;
+  height: 40px;
+  width: 200px;
+  background-color: rgb(0, 126, 229);
+  border-radius: 5px;
+}
+
+.how-to-images{
+  width: 200px;
+  border-radius: 50%;
+}
+
+.how-to-cell{
+  text-align: center;
+}
