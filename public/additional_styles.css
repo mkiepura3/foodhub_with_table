@@ -1,3 +1,25 @@
-h1 {
-  color: blue;
+.main-content {
+  width: 100%;
 }
+
+td {
+  border: thin red solid;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.hero {
+color: white;
+  text-align:center;
+  background: url("main-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 300px;
+
+}
+ button {
+   background-color: rgb(0, 126, 229);
+   color: white;
+   height: 40px;
+   width: 200px;
+   border-radius: 5px;
+ }
