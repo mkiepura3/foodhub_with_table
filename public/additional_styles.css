@@ -94,3 +94,13 @@ h2{
 .sub-heading{
   font-size: 22px;
 }
+
+.site-footer{
+  background-color: rgb(50, 50, 170);
+  color: white;
+  font-weight: bold;
+}
+
+.li-item{
+  font-weight: normal;
+}
