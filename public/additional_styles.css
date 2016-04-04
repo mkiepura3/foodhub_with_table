@@ -10,18 +10,29 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+.topnav {
+  background-color: red;
+  color:white;
+}
+
 .heading-row  {
-text-align: center;
+  text-align: center;
 }
 
 .how-to-images  {
   width:200px;
   border-radius: 50%;
-  }
+}
 
-  .how-to-cell {
-    text-align: center;
-  }
+.sound-bite-images  {
+  width:70px;
+  border-radius: 50%;
+  vertical-align:top;
+}
+
+.how-to-cell {
+  text-align: center;
+}
 
 .hero {
   color: white;
@@ -31,13 +42,39 @@ text-align: center;
   height: 300px;
 }
 
+.app {
+  color: white;
+  text-align: center;
+  background: url("download-hero.jpg")no-repeat center center;
+  background-size: cover;
+  height: 300px;
+}
+
 button {
   background-color: rgb(0,126,229);
   height: 40px;
   width: 200px;
   border-radius: 5px;
+  color: white;
 }
+
+.appbuttons {
+  width: 200px;
+}
+
 
 .icons {
   color: white;
+}
+
+
+
+.footer {
+  color: white;
+  background-color: rgb(50,  50,  170);
+  vertical-align: text-top;
+}
+
+.paddingtest {
+  padding: 5px;
 }
