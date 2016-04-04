@@ -10,6 +10,17 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
+.navigation-bar{
+  background-color: red;
+  color: white;
+}
+
+.navigation-header{
+  font-size: 25px;
+  font-weight: bold;
+  font-stretch:extra-condensed;
+}
+
 .hero {
   text-align: center;
   background: url("main-hero.jpg"); no-repeat center center;
@@ -37,4 +48,48 @@ button {
 
 .how-to-cell {
   text-align: center;
+}
+
+.sound-bite-image{
+  width:50px;
+  border-radius:50%;
+  no-repeat center top:
+}
+
+.sound-bite-cell{
+  text-align:center;
+}
+
+.twitter-name{
+  font-weight: bold;
+}
+
+.download-apps {
+  text-align: center;
+  background: url("download-hero.jpg");
+  no-repeat center center;
+  background-size: cover;
+  height: 450px;
+  color: white;
+}
+
+.badge {
+  height: 50px;
+  width: 200px;
+}
+
+.why-order-cell{
+  text-align: center;
+  no-repeat center top;
+}
+
+.why-order-image{
+  width: 200px;
+  border-radius: 50%;
+  no-repeat center top;
+}
+
+.footer{
+  background-color: purple;
+  color: white;
 }
