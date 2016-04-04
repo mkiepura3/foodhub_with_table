@@ -13,22 +13,64 @@
 
 }
 
+.how-to-image-user{
+  width: 50px;
+  border-radius: 50%;
+
+}
+
 .how-to-cell{
   text-align: center;
 }
 
+.Sound-Heading{
+  text-align: center;
+}
+
+.allign-left{
+  text-align: left;
+}
 td{
   border: thin red solid;
+}
+
+.navbar{
+color: white;
+  background-color: rgb(246,52,64);
+}
+
+.foodhub-font{
+  font-family: 'Passion One', bold;
+  font-size: xx-large;
 }
 
 body{
   font-family: 'Montserrat', sans-serif;
 }
 
+.store-badge{
+  width: 200px;
+}
+
 .hero{
   color: white;
   text-align: center;
   background: url("main-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 300px;
+}
+
+.footer{
+vertical-align: top;
+    color: white;
+    text-align: left;;
+    background: rgb(50,50,170)
+
+}
+.download-apps{
+  color: white;
+  text-align: center;
+  background: url("download-hero.jpg") no-repeat center center;
   background-size: cover;
   height: 300px;
 }
