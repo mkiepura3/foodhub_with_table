@@ -1,0 +1,55 @@
+.main-content {
+  width: 100%;
+}
+
+td {
+border: thin red solid;
+}
+
+.how-to-images {
+  width: 200px;
+  border-radius: 50%;
+}
+.how-to-cell {
+  text-align: center;
+}
+.hero {
+  color: white;
+  text-align: center;
+  background: url("main-hero.jpg")
+  no-repeat center center;
+  background-size: cover;
+  height: 300px;
+}
+button {
+  background-color: rgb(0,120,229);
+  color: white;
+  height: 40px;
+  width: 200px;
+  border-radius: 5px;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.heading-row {
+  text-align: center;
+}
+.sound-bites-images {
+  width: 50px;
+  border-radius: 50%;
+}
+.sound-bites-cell {
+  text-align: center;
+}
+.download {
+  color: white;
+  text-align: center;
+  background: url("download-hero.jpg")
+  no-repeat center center;
+  background-size: cover;
+  height: 300px;
+}
+.app-badge-images {
+  width: 200px;
+  border-radius: 5px;
+}
