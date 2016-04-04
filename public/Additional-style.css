@@ -1,0 +1,132 @@
+
+.main-content {
+
+  width: 100%;
+}
+
+
+td{
+  border: thin red solid;
+
+
+
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+h1{
+  font-size: 30px;
+}
+
+.navigation{
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  vertical-align: middle;
+
+}
+.heading-row{
+  vertical-align: middle;
+  text-align: center;
+  padding: 10px;
+}
+
+.how-to-image{
+  width: 200px;
+  border-radius: 50%;
+
+}
+
+.sound-bites-image{
+  border-radius: 50%;
+  width:40px;
+
+}
+
+.App{
+
+  color: white;
+  text-align: center;
+  background: url("download-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 300px;
+  font-weight: bold;
+  font-size: 20px;
+  vertical-align: middle;
+  padding: 10px;
+
+}
+
+
+.app-image{
+  width:150px;
+
+}
+
+.why-image{
+  border-radius: 50%;
+  width: 100px;
+}
+
+.user-name{
+  font-weight: bold;
+}
+
+.how-to-cell{
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px;
+}
+
+.sound-why-cell{
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px;
+  background-color: rgb(238, 238, 238);
+}
+
+.heading-grey-row{
+  vertical-align: middle;
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(238, 238, 238);
+}
+
+
+.hero{
+
+  color: white;
+  font-size: 16px;
+
+  text-align: center;
+  background: url("main-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 300px;
+  vertical-align: middle;
+  padding: 10px;
+}
+
+button{
+  background-color: rgb(0, 126, 228);
+  color:white;
+  height: 40px;
+  width: 200px;
+  border-radius: 5px;
+
+}
+
+.about-cell{
+  vertical-align: middle;
+  padding: 10px;
+}
+
+.footer{
+  background-color: rgb(50, 50, 170);
+  color:white;
+  font-size: 16px;
+  vertical-align: top;
+  padding: 10px;
+
+}
