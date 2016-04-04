@@ -5,6 +5,11 @@
 .navigation {
   background-color: rgb(246,52,64);
   color: white;
+  }
+
+  .navigation-font {
+    font-family: 'Passion One', cursive;
+    font-size: 24pt;
 }
 
 .heading-row{
