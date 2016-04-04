@@ -38,3 +38,31 @@ button{
 .how-to-cell{
   text-align: center;
 }
+
+.user-picture{
+  text-emphasis-style: circle;
+  width:50px;
+  border-radius: 50%;
+}
+
+.download-apps{
+  background: url(download-hero.jpg) no-repeat center;
+  height: 400px;
+  text-align: center;
+  color: white;
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+.why-order{
+  text-align: center;
+  border-radius: 50%;
+  width: 200px;
+}
+
+
+.app-logo{
+  width: 200px;
+}
