@@ -43,16 +43,27 @@ button{
   border-radius: 5px;
 }
 
+.how-to-header{
+  text-align: center;
+}
+
 .how-to-cell{
   text-align: center;
 }
 
-.soundbites-cell{
+.how-to-img{
+  width: 200px;
+  border-radius: 50%;
+}
+
+.soundbites-header{
   text-align: center;
+  background-color: rgb(238, 238, 238);
 }
 
 .testimonial-cell{
   text-align: center;
+  background-color: rgb(238, 238, 238);
 }
 
 .testimonial-image{
@@ -74,18 +85,19 @@ button{
 
 .why-order-tag{
   text-align: center;
+  background-color: rgb(238, 238, 238);
 }
 
-.how-to-img{
-  width: 200px;
-  border-radius: 50%;
-}
-.heading-row{
+
+
+.why-order-header{
   text-align: center;
+  background-color: rgb(238, 238, 238);
 }
 
 .reasons-to-order{
   text-align: center;
+  background-color: rgb(238, 238, 238);
 }
 
 .reasons-image{
