@@ -8,7 +8,15 @@ td{
 body{
   font-family: 'Montserrat', sans-serif;
 }
-
+.navigation{
+  background-color: rgb(246, 52, 64);
+  color: white;
+}
+.logo{
+  text-transform: uppercase;
+  font-family: 'Passion One', cursive;
+  font-size: 32px;
+}
 .hero{
   color: white;
   text-align: center;
@@ -23,12 +31,18 @@ body{
   text-align: center;
 }
 
+.page-core{
+  background-color: rgb(238, 238, 238);
+}
 .how-to-image{
   width: 200px;
   border-radius: 50%;
-
 }
 
+.user-image{
+  height: 50px;
+  width: 50px;
+}
 .how-to-cell{
   text-align: center;
 }
