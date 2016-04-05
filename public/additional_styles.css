@@ -15,6 +15,15 @@ body{
   color: white;
   text-align: left;
 }
+.navbar a {
+  color: white !important;
+  text-decoration: none;
+}
+
+.navbar-brand {
+  font-family: "Passion One";
+  font-size: xx-large;
+}
 .hero{
   color: white;
   text-align: center;
@@ -58,4 +67,7 @@ button{
 }
 .center{
   text-align: center;
+}
+.sound-bites, .why{
+  background-color: rgb(238,238,238);
 }
