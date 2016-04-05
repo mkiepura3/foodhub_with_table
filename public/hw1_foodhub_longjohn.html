@@ -4,8 +4,14 @@
   <meta charset="utf-8">
   <title>Foodhub</title>
 
+<!--Connect to CSS-->
   <link rel="stylesheet" href="Foodstylesheet.css">
+
+<!--Connect to Google web fonts-->
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
+
+<!--Connect to Font awesome-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <!--- rgba uses the a field for transparency -->
 
@@ -16,50 +22,70 @@
   <table class="main-content">
     <tr> <!---1.  Navigation -->
 
-      <td colspan="6">
-        <h1>FoodHub</h1>
-      </td>
-      <td colspan="3">
-        Sign In
-      </td>
-      <td colspan="3">
-        <i class="fa fa-shopping-bag"></>
-      </td>
+      <td colspan="10" class="navbar">
+             <a class="navbar-brand" href="#">
+               FOODHUB
+             </a>
+           </td>
+           <td class="navbar">
+             <a href="#">
+               Sign In
+             </a>
+           </td>
+           <td class="navbar">
+             <a href="#" class="btn btn-link">
+               <i class="fa fa-shopping-bag fa-lg"></i>
+             </a>
+           </td>
     </tr>
 
     <tr> <!--- 2. Hero -->
-      <td colspan="12" class= "hero">
+      <td colspan="12" class= "who-delivers centered">
         <h2>Who delivers in your neighborhood?</h2>
         <form>
-          <div><labels>Enter your address below.</labels></div>
-          <div><i class="fa fa-map-marker"></i><input type="text"></div>
-          <button>Find Food</button>
+          <div class="form-group">
+            <label for="exampleInputAddress1">
+              Enter your address below.
+            </label>
+
+            <div class="input-group">
+              <span class="input-group-addon" id="basic-addon1">
+                <i class="fa fa-map-marker"></i>
+              </span>
+
+              <input type="text" class="form-control" id="exampleInputAddress1" placeholder="Street address, city, state">
+            </div>
+          </div>
+
+          <button type="submit" class="primary-button">
+            Find Food
+          </button>
         </form>
       </td>
     </tr>
 
     <tr> <!--- 3. How to header-->
-      <td colspan="12" class="heading-row">
+      <td colspan="12" class="centered">
         <h2>How to Foodhub</h2>
         <p>Ordering from your favorite restaurant is even easier than eating. </p>
       </td>
     </tr>
 
     <tr> <!--- 4. 3 how to content -->
-      <td colspan="4" class="how-to-cell">
-        <img src="map.jpg" alt="" class="how-to-image" >
+      <td colspan="4" class="centered">
+        <img src="map.jpg" alt="" class="round-image spotlight-image margin-below-bottom-sm" >
         <h4>The Where
         </h4>
         <p>Browse menus from your favorite local restaurants.</p>
       </td>
-      <td colspan="4" class="how-to-cell">
-        <img src="menu.jpg" alt="" class="how-to-image">
-        <h4>The Where
+      <td colspan="4" class="centered">
+        <img src="menu.jpg" alt="" class="round-image spotlight-image margin-below-bottom-sm">
+        <h4>The What
         </h4>
         <p>Select what you want to eat. Submit your order.</p>
       </td>
-      <td colspan="4" class="how-to-cell">
-        <img src="delivery.jpg" alt="" class="how-to-image">
+      <td colspan="4" class="centered">
+        <img src="delivery.jpg" alt="" class="round-image spotlight-image margin-below-bottom-sm">
         <h4>The Where
         </h4>
         <p>Get the door and enjoy your food!</p>
@@ -67,73 +93,129 @@
     </tr>
 
     <tr> <!--- 5. sound bites heading -->
-      <td colspan="12">
-        h
+      <td colspan="12" class="sound-bites centered"; >
+      <h2>Sound bites</h2>
       </td>
     </tr>
 
     <tr> <!--- 6. sound bites content -->
-      <td colspan="3">
-        h
+      <td colspan="3" class="sound-bites centered">
+        <img src="user-1.jpg" alt="" class="round-image user-image">
+        <p> @Foodhub I love you, Foodhub! Just ordered me some grub, and I tell you, you folks make that part of my life easy. Thanks!</p>
+          <h4>@xtinacousins</h4>
       </td>
-      <td colspan="3">
-        h
+      <td colspan="3" class="sound-bites centered">
+        <img src="user-2.jpg" alt="" class="round-image user-image">
+        <p> Made my first @Foodhub order today. So great to be able to order food and not have to talk to anyone.</p>
+          <h4>@udezekene</h4>
       </td>
-      <td colspan="3">
-        h
+      <td colspan="3" class="sound-bites centered">
+        <img src="user-3.jpg" alt="" class="round-image user-image">
+        <p> Shout out to Foodhub for making my life so so easy.</p>
+          <h4>@adellecharles</h4>
       </td>
-      <td colspan="3">
-        h
+      <td colspan="3" class="sound-bites centered">
+        <img src="user-4.jpg" alt="" class="round-image user-image">
+        <p> Seriously, @Foodhub makes it easy for my coworkers and I to order food and get it to our office in a jiffy. FOOD!</p>
+          <h4>@vista</h4>
       </td>
     </tr>
 
     <tr> <!--- 7. download apps -->
-      <td colspan="12">
-        h
+      <td colspan="12" class="download-apps centered">
+        <h2>Download apps</h2>
+          <p class="tagline">Millions of users and we want to befriend each one. 900+ cities and more than 35,000 restaurants.</p>
+          <div><img src="app-store-badge.png" class="store-badge margin-below-bottom-xs">
+          <img src="google-play-badge.png" class="store-badge margin-below-bottom-xs"></div>
       </td>
     </tr>
 
     <tr> <!--- 8. Why order heading -->
-      <td colspan="12">
-        h
+      <td colspan="12" class="why-order centered">
+      <h2>Why order with Foodhub?</h2>
       </td>
     </tr>
 
     <tr> <!--- 9. Why order content -->
-      <td colspan="4">
-        h
+      <td colspan="4" class="why-order centered">
+        <img src="gem.jpg" alt="" class="round-image spotlight-image margin-below-bottom-sm">
+        <h4>Discover
+        </h4>
+        <p>We'll help you find hidden gems in your neighborhood.</p>
       </td>
-      <td colspan="4">
-        h
+      <td colspan="4" class="why-order centered">
+        <img src="like.jpg" alt="" class="round-image spotlight-image margin-below-bottom-sm">
+        <h4>Better
+        </h4>
+        <p>The more you use Foodhub, the better we are at making recommendations just for you.</p>
       </td>
-      <td colspan="4">
-        h
+      <td colspan="4" class="why-order centered">
+        <img src="bite.jpg" alt="" class="round-image spotlight-image margin-below-bottom-sm">
+        <h4>Food
+        </h4>
+        <p>Enjoy each bite all the more knowing your order supports local businesses.</p>
       </td>
     </tr>
 
     <tr> <!--- 10. About -->
-      <td colspan="6">
-        h
+      <td colspan="6" class="centered">
+        <h2>About Foodhub</h2>
       </td>
       <td colspan="6">
-        h
+        <p>Foodhub helps you find and order food from wherever you are. How it works: you type in an address, we tell you the restaurants that deliver to that locale as well as showing you droves of pickup restaurants near you. Want to be more specific? Search by cuisine, restaurant name or menu item. We'll filter your results accordingly. When you find what you're looking for, you can place your order online or by phone, free of charge. Oh, and we also give you access to reviews, coupons, special deals and a 24/7 customer care team that tracks each order and makes sure you get exactly what you want.</p>
       </td>
     </tr>
 
     <tr> <!--- 11. Footer -->
-      <td colspan="3">
-        h
-      </td>
-      <td colspan="3">
-        h
-      </td>
-      <td colspan="3">
-        h
-      </td>
-      <td colspan="3">
-        h
-      </td>
-    </tr>
+      <td colspan="3" class="footer">
+      <h4 class="h4-footer">Sign up for special offers</h4>
+      <form>
+         <div class="form-group">
+           <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+         </div>
+         <div class="form-group">
+           <input type="number" class="form-control" id="exampleInputZip1" placeholder="ZIP code">
+         </div>
+         <button type="submit" class="primary-button">Send me treats</button>
+       </form>
+     </td>
+
+     <td colspan="3" class="footer">
+            <h4 class="h4-footer">Get to know us</h4>
+            <ul class="list-unstyled">
+              <li class="li-footer">About Grubhub</li>
+              <li class="li-footer">Our apps</li>
+              <li class="li-footer">Our blog</li>
+              <li class="li-footer">Careers</li>
+              <li class="li-footer">Investor relations</li>
+              <li class="li-footer">News</li>
+            </ul>
+          </td>
+
+          <td colspan="3" class="footer">
+            <h4 class="h4-footer">Help</h4>
+            <ul class="list-unstyled">
+              <li class="li-footer">FAQ</li>
+              <li class="li-footer">Contact us</li>
+            </ul>
+            <h4 class="h4-footer">Connect with us</h4>
+            <ul class="list-unstyled">
+              <li class="li-footer">Facebook</li>
+              <li class="li-footer">Twitter</li>
+              <li class="li-footer">Instagram</li>
+              <li class="li-footer">YouTube</li>
+            </ul>
+          </td>
+
+          <td colspan="3" class="footer">
+            <h4 class="h4-footer">Partner with us</h4>
+            <ul class="list-unstyled">
+              <li class="li-footer">For restaurants</li>
+              <li class="li-footer">For drivers</li>
+              <li class="li-footer">For corporate accounts</li>
+            </ul>
+          </td>
+        </tr>
 
   </table>
 
