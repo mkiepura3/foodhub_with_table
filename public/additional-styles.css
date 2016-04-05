@@ -1,0 +1,23 @@
+.main-content {
+  width: 100%;
+}
+td{border: thin red solid;
+}
+.hero{text-align: center;
+  background: url("main-hero.jpg") no-repeat center bottom;
+  background-size: cover;
+  height: 300px;
+  color: white;}
+  button {background-color: rgb(0, 126, 229);
+    color: white;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px}
+    .navigation{background-color: red;
+      color: white}
+      body{font-family: 'Montserrat', sans-serif;}
+
+      .heading-row{text-align: center;}
+      .how-to-image{width: 200px;
+        border-radius: 50%;}
+        .how-to.cell{text-align: center;}
