@@ -30,6 +30,7 @@ td {
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .bottom {
@@ -37,6 +38,10 @@ td {
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
+}
+
+.ul-format {
+  line-height: 2;
 }
 
 body {
