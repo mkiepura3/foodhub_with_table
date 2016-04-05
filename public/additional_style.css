@@ -1,17 +1,61 @@
 .main-content {
  width: 100%;
+
+}
+
+.navbar {
+  background-color: rgb(246,52,64);
+  vertical-align: middle;
+}
+
+.navbar a {
+  color: white !important;
+  text-decoration: none;
+}
+
+.navbar-brand {
+  font-family: "Passion One";
+  font-size: xx-large;
 }
 
 .heading-row {
   text-align: center;
 }
 
+.footer {
+  background-color: rgb(50,50,170);
+}
+
+.h4-footer {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.li-footer {
+  color: white;
+  margin-bottom: 10px;
+  }
+
 .how-to-image {
   width: 200px;
   border-radius: 50%;
   }
 
+  .how-to-image2 {
+    width: 100px;
+    border-radius: 50%;
+  }
+
+.how-to-image3 {
+  width: 200px;
+  height: 60px;
+}
+
+
 .how-to-cell {
+
   text-align: center;
 }
 
@@ -32,6 +76,14 @@ background: url("main-hero.jpg") no-repeat center center;
 background-size: cover;
 height: 300px;
 
+}
+
+.download_hero {
+color: white;
+  text-align: center;
+  background: url("download-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 300px;
 }
 
 button {
