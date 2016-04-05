@@ -1,3 +1,20 @@
+.navbar {
+    background-color: rgb(246,52,64);
+    vertical-align: middle;
+    color: white;
+}
+
+
+h1, h2, h3, h4 {
+  font-weight: 700;
+}
+
+td {
+  vertical-align: top;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .main-content {
   width: 100%;
 }
@@ -15,18 +32,38 @@
   text-align: center;
 }
 
+.how-to-cell {
+  text-align: center;
+}
+
+.bites {
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+}
+
+.soundbites {
+  background-color: rgb(238, 238, 238);
+}
+
+.soundbites-image {
+  width: 50px;
+  border-radius: 50%;
+}
+
 td {
   border: thin red solid;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
 }
 
-.hero {
+.hero, .hero2 {
   font-family: 'Montserrat', sans-serif;
   color: white;
   text-align: center;
+  vertical-align: middle;
   background: url("main-hero.jpg")
   no-repeat center center;
   background-size: cover;
@@ -39,4 +76,46 @@ button {
   height: 40px;
   width: 200px;
   border-radius: 5px;
+}
+
+.hero {
+  background: url("main-hero.jpg")
+  no-repeat center center;
+  background-size: cover;
+  height: 300px;
+}
+
+.hero2 {
+  background: url("download-hero.jpg")
+  no-repeat center center;
+  background-size: cover;
+  height: 300px;
+  }
+
+.tagline {
+  font-size: 22px;
+}
+
+.store-badge {
+  width: 200px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.footer {
+  background-color: rgb(50, 50, 170);
+}
+
+.h4-footer  {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.li-footer {
+  color: white;
+  margin-bottom: 10px;
 }
