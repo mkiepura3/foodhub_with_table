@@ -14,6 +14,23 @@ td{
   height: 300px;
 }
 
+.navigation-bar{
+  background-color: rgb(246,52,64);
+  color:white;
+  font-size: 25px;
+  padding-left: 10px;
+}
+
+.navbar{
+  padding-left: 10px;
+  vertical-align: top;
+  font-size: 25px;
+}
+
+.navfont{
+  font-family: 'Passion One', cursive;
+}
+
 body{
   font-family: 'Montserrat', sans-serif;
 }
@@ -65,4 +82,13 @@ button{
 
 .app-logo{
   width: 200px;
+}
+
+.footer{
+  background-color: rgb(50,50,170);
+  color: white;
+  font-size: 16px;
+  text-align: left;
+  padding-left: 10px;
+  vertical-align: top;
 }
