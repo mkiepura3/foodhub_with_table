@@ -1,19 +1,7 @@
-.main-content {
-  width: 100%;
-
-}
-.nav-bar{
-  background-color: rgb(246,52,64);
-  color: white;
-  font-family: 'Montserrat', sans-serif;
-}
-.nav-bar-brand {
-  font-family: 'Passion One';
-  font-size: xx-large;
-}
 td {
   border: thin red solid;
-
+  padding-left: 10px;
+  padding-right: 10px;
 }
 body {
   font-family: 'Montserrat', sans-serif;
@@ -22,17 +10,11 @@ body {
 h4 {
   font-size: 16px;
   font-weight: 700;
+  display: block;
 }
-
-.hero {
-  color: white;
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-  background: url("main-hero.jpg");
-  no-repeat center center;
-  background-size: cover;
-  height: 300px;
-
+h2 {
+  font-weight: 700;
+  font-size: 1.5em;
 }
 
 button {
@@ -43,72 +25,133 @@ button {
   border-radius: 5px;
 }
 
-.heading-row {
-  text-align: center;
-}
-.how-to-image {
-  width: 200px;
-  border-radius: 50%;
-}
+ul {
 
-.sound-bites {
-  text-align: center;
-  text-size: 50px;
-  background-color: grey;
 }
-
-.sound-image {
-  height: 50px;
-  border-radius: 50%;
-}
-.sound-bites-row {
-  text-align: center;
-  background-color: grey;
-}
-
-.how-to-cell {
-  text-align: center;
-}
+li {
+  display: list-item;
+  margin-bottom: 10px;
+  }
 
 
-.download-apps {
-  background: url("download-hero.jpg");
-  text-align:center;
-  color: white;
-  height: 400px;
-  no-repeat center center;
-  background-size: cover;
-}
-.app-images {
-  text-align:center;
-}
-
-.why-foodhub {
-  text-align: center;
-  text-size: 50px;
-  background-color: grey;
-}
-
-.reasons {
-
-    text-align: center;
-    background-color: grey;
-}
-
-.reasons-image {
-
-  width: 200px;
-  border-radius: 50%;
-}
-
-.footer {
-  background-color: blue;
-  color: white;
-}
-
-.footer-list {
-  display: block;
-  list-style-type: disc;
+  .main-content {
+    width: 100%;
 
   }
+  .nav-bar{
+    background-color: rgb(246,52,64);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .nav-bar-brand {
+    font-family: 'Passion One';
+    font-size: xx-large;
+    padding-left: 10px;
+    border: 1px;
+  }
+
+  .hero {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background: url("main-hero.jpg");
+    no-repeat center center;
+    background-size: cover;
+    height: 300px;
+
+  }
+
+  .heading-row {
+    text-align: center;
+  }
+  .how-to-image {
+    width: 200px;
+    border-radius: 50%;
+  }
+
+  .sound-bites {
+    text-align: center;
+    background-color: rgb(238,238,238);
+  }
+
+
+
+  .sound-image {
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  .sound-bites-row {
+    text-align: center;
+    vertical-align: top;
+    background-color: rgb(238,238,238);
+  }
+
+  .how-to-cell {
+    text-align: center;
+  }
+
+
+  .download-apps {
+    background: url("download-hero.jpg");
+    text-align:center;
+    color: white;
+    height: 400px;
+    no-repeat center center;
+    background-size: cover;
+  }
+  .app-images {
+    text-align:center;
+  }
+
+  .why-foodhub {
+    text-align: center;
+    text-size: 50px;
+    background-color: rgb(238,238,238);
+  }
+
+  .reasons {
+
+    text-align: center;
+    background-color: rgb(238,238,238);
+    vertical-align: top;
+  }
+
+  .reasons-image {
+
+    width: 200px;
+    border-radius: 50%;
+
+  }
+
+
+
+  .footer {
+    background-color: rgb(50,50,170);
+    color: white;
+    vertical-align: top;
+  }
+
+  .footer-list {
+
+    margin-bottom: 10px;
+
+  }
+}
+
+#download-title {
+  font-size: 1.5em;
+}
+
+#download-text {
+  font-size: 22px;
+}
+
+#about-row {
+  vertical-align: top;
+}
+
+
+#about {
+  text-align: center;
 }
