@@ -5,6 +5,20 @@ td{
 .how-to-cell{
   text-align: center;
 }
+
+.soundbites-cell{
+  text-align: center;
+}
+
+.testimonial-cell{
+  text-align: center;
+}
+
+.testimonial-image{
+  width:50px;
+  border-radius: 50%;
+  a
+}
 .how-to-img{
   width: 200px;
   border-radius: 50%;
