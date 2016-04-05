@@ -38,6 +38,11 @@ button{
   border-radius:5px;
 }
 
+.input-1{
+  padding-top:10px;
+  padding-bottom: 15px;
+}
+
 .how-to,.sound-bite{
   text-align: center;
 }
@@ -45,10 +50,12 @@ button{
 .how-to-photo{
   width:200px;
   border-radius:50%;
+  vertical-align: text-top;
 }
 
 .how-to-photocell{
   text-align:center;
+  vertical-align: text-top;
 }
 
 .sound-bite{
@@ -58,10 +65,12 @@ button{
 .user-photo{
   width:50px;
   border-radius:50%;
+  vertical-align: text-top;
 }
 
 .user-cell{
   text-align:center;
+  vertical-align: text-top;
   background-color: rgb(238,238,238);
 }
 
@@ -93,11 +102,13 @@ h2{
 .reasons{
   text-align:center;
   background-color: rgb(238,238,238);
+  vertical-align: text-top;
 }
 
 .reasons-photo{
   width:200px;
   border-radius:50%;
+  vertical-align: text-top;
 }
 
 .about{
