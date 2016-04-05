@@ -27,6 +27,10 @@ button{
 .heading-row{
   text-align: center;;
 }
+.heading-row-top{
+  text-align: center;
+  vertical-align: top
+}
 .how-to-image{
   width: 200px;
   border-radius: 50%;
@@ -42,10 +46,12 @@ button{
   color:white;
   font-family: 'Passion One', cursive;
   font-size: XX-large;
+  padding-left: 10px;
 }
 .othernavbar{
   background-color: rgb(246,52,64);
   color:white;
+  padding-left: 10px;
 }
 .graybackground{
   background-color: rgb(238,238,238);
@@ -82,4 +88,5 @@ button{
   color: white;
   padding-left: 10px;
   vertical-align: top;
+  padding-right: 10px;
 }
