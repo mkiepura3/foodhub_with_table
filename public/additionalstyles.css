@@ -38,6 +38,7 @@ body{
 
 .how-to-cell{
   text-align: center;
+  vertical-align: top;
 }
 
 .user-images{
@@ -69,6 +70,15 @@ body{
 .bottom-row{
   background-color: rgb(50, 50, 170);
   color: white;
+  vertical-align: top;
+}
+
+.align-top{
+  vertical-align: top;
+}
+
+.gray-back{
+  background-color: rgb(238, 238, 238);
 }
 
 button{
