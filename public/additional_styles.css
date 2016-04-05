@@ -30,12 +30,56 @@ button{
 .how-to-image{
   width: 200px;
   border-radius: 50%;
+  vertical-align: top;
 
 }
 .how-to-cell{
-  text-align: center
+  text-align: center;
+  vertical-align: top;
 }
 .navbar{
   background-color: rgb(246,52,64);
   color:white;
+  font-family: 'Passion One', cursive;
+  font-size: XX-large;
+}
+.othernavbar{
+  background-color: rgb(246,52,64);
+  color:white;
+}
+.graybackground{
+  background-color: rgb(238,238,238);
+  text-align: center;
+}
+.graybackgroundwithpicture{
+  background-color: rgb(238,238,238);
+  text-align: center;
+  vertical-align: top;
+}
+.users{
+  border-radius: 50%;
+  width: 50px;
+}
+.apphero{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background: url("download-hero.jpg") no-repeat center center;
+  background-size:cover;
+  height: 400px;
+}
+.whycontent{
+    border-radius: 50%;
+    width: 200px;
+}
+.textblock{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.blueback{
+  background-color: rgb(50,50,170);
+  color: white;
+  padding-left: 10px;
+  vertical-align: top;
 }
