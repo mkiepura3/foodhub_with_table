@@ -11,7 +11,8 @@ body{
 .navigation{
   background-color: rgb(246, 52, 64);
   color: white;
-  padding-left: 10px;
+  padding-left: 5px;
+  text-decoration: none;
 }
 
 .logo{
@@ -38,6 +39,14 @@ h1{
 }
 .heading-row{
   text-align: center;
+}
+.about{
+text-align: top;
+vertical-align: top;
+}
+
+.about-body{
+  padding-left: 10px;
 }
 
 .page-core{
@@ -84,3 +93,14 @@ button{
   height: 60px;
   padding-top: 5px;
 }
+.footer{
+  background-color: rgb(50, 50, 170);
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 15pt;
+  vertical-align: top;
+}
+li{
+  font-size: 12pt;
+  line-height: 2;
