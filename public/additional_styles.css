@@ -1,0 +1,92 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 600;
+}
+
+.main-content {width:100%;text-align: center;
+  }
+
+td {
+  vertical-align: top;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+td { border: thin red solid}
+
+.centered{text-align: centered}
+
+  .how-to-image{
+    width: 200px;
+    border-radius: 50%;
+  }
+
+  .how-to-cell{
+    text-align: center;
+  }
+  td {
+    border: thin red solid;
+  }
+
+  .user-image{
+    width: 50px;
+    border-radius: 50%;
+  }
+
+  .hero {
+    color: white;
+    text-align: center;
+    background: url("main-hero.jpg")
+    no-repeat center center;
+    background-size: cover;
+    height: 300px;
+  }
+
+  .download-hero {
+    color: white;
+    text-align: center;
+    background: url("download-hero.jpg")
+    no-repeat center center;
+    background-size: cover;
+    height: 300px;
+  }
+
+
+  button {
+    background-color: rgb(0 , 126, 229);
+    color: white;
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+  }
+.navigation-bar {
+  background-color: rgb(246,52,64);
+  vertical-align: middle;}
+
+.navigation-brand {
+  font-family: "Passion One";
+  font-size: 20px;
+}
+
+.footer {background-color: rgb(50, 50, 170);
+}
+
+.h4-footer  {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.primary-button {
+  background-color: rgb(0,126,229);
+  width: 200px;
+  color: white;
+  border-radius: 6px;
+  height: 60px;
+  transition: all 0.2s ease-in-out;
+}
