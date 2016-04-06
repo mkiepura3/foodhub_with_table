@@ -6,22 +6,63 @@
 text-align: center;
 }
 
+.nav-bar {
+  background-color: rgb(246,52,64);
+  color: white;
+}
+
+.grey-heading-row {
+text-align: center;
+background-color: rgb(238, 238, 238);
+}
+
 .how-to-image {
   width: 200px;
   border-radius: 50%;
 }
 
+
 .how-to-cell {
   text-align: center;
+  vertical-align: top;
 }
+
+.soundbites-cell {
+  text-align: center;
+  vertical-align: top;
+  background-color: rgb(238, 238, 238);
+}
+
+.user-image {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.user-image-cell {
+  text-align: center;
+  vertical-align: top;
+}
+
 
 td {
   border: thin red solid;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+.shopping-bag {
+font-size: 1.333333em;
+line-height: 0.75em
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
+}
+
+.tagline {
+  font-size: 22px;
 }
 
 h1, h2, h3, h4 {
@@ -33,13 +74,61 @@ h1, h2, h3, h4 {
   text-align: center;
   background: url("main-hero.jpg") no-repeat center center;
   background-size: cover;
-  height: 300px;
+  height: 400px;
 }
 
+.margin-below-bottom-sm {
+  margin-bottom: 20px
+}
 button {
   background-color: rgb(0, 126, 229);
   color: white;
   height: 40px;
   width: 200px;
   border-radius: 5px;
+}
+
+.download-apps {
+  color: white;
+  text-align: center;
+  background: url("download-hero.jpg") no-repeat center center;
+  background-size: cover;
+  vertical-align: middle;
+  height: 400px;
+}
+
+.store-badge {
+  width: 200px;
+}
+
+.why-order-image {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.why-order-cell {
+  text-align: center;
+    vertical-align: top;
+    background-color: rgb(238, 238, 238);
+}
+
+.about_foodhub {
+  text-align: center;
+  vertical-align: top;
+}
+
+.footer {
+color: white;
+background-color: rgb(50, 50, 170);
+vertical-align: top;
+}
+
+.li-footer {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.foodhub {
+  font-family: 'Passion One', cursive;
+  font-size: xx-large;
 }
