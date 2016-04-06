@@ -16,18 +16,28 @@ td {
   padding-right: 10px;
 }
 
-td { border: thin red solid}
-
 .centered{text-align: centered}
 
   .how-to-image{
     width: 200px;
     border-radius: 50%;
   }
-
-  .how-to-cell{
+  .how-to-foodhub{
     text-align: center;
   }
+  .how-to-cell{
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(238, 238, 238);
+  }
+.soundbites{
+  background-color: rgb(238, 238, 238);
+}
+
+.why-order{
+  background-color: rgb(238, 238, 238);
+}
+
   td {
     border: thin red solid;
   }
@@ -35,6 +45,7 @@ td { border: thin red solid}
   .user-image{
     width: 50px;
     border-radius: 50%;
+    background-color: rgb(238, 238, 238);
   }
 
   .hero {
@@ -65,14 +76,18 @@ td { border: thin red solid}
   }
 .navigation-bar {
   background-color: rgb(246,52,64);
-  vertical-align: middle;}
+  vertical-align: middle;
+  width:100%;
+  text-align: left;
+  color: white}
 
 .navigation-brand {
   font-family: "Passion One";
-  font-size: 20px;
+  font-size: xx-large;
 }
 
 .footer {background-color: rgb(50, 50, 170);
+  text-align: left;
 }
 
 .h4-footer  {
@@ -82,11 +97,29 @@ td { border: thin red solid}
   margin-bottom: 10px;
 }
 
+.text-align-left{text-align: left;}
+
+
+.badge{
+  width: 200px
+}
+.bullett-footer {
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
 .primary-button {
   background-color: rgb(0,126,229);
-  width: 200px;
+  width: 175px;
   color: white;
   border-radius: 6px;
   height: 60px;
   transition: all 0.2s ease-in-out;
+}
+
+.margin-below-bottom-sm {
+  margin-bottom: 20px;
 }
