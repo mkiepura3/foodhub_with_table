@@ -2,7 +2,33 @@
   width: 100%;
 }
 
+.top-row {
+  color: white;
+  background-color: rgb(246,52,64);
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+.top-heading {
+    font-family: "Passion One";
+    font-size: xx-large;
+    color: white;
+    text-decoration: none;
+}
+
+.top-middle {
+  color: white;
+  text-decoration: none;
+}
+
+.top-right {
+  color: white;
+  text-decoration: none;
+  font-size: x-large;
+}
+
 .heading-row {
+    background-color: rgb(238,238,238);
   text-align: center;
 }
 
@@ -11,8 +37,37 @@
   border-radius: 50%;
 }
 
+.sound-bites-image {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.why-order-image {
+  width: 200px;
+  border-radius: 50%;
+  background-color: rgb(238,238,238);
+}
+
 .how-to-cell {
   text-align: center
+}
+
+.why-order-cell {
+  text-align: center;
+  background-color: rgb(238,238,238);
+}
+
+.sound-bites-cell {
+  background-color: rgb(238,238,238);
+  text-align: center;
+}
+
+.download-apps {
+  color: white;
+  text-align: center;
+  background: url("download-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 400px;
 }
 
 td {
@@ -30,6 +85,26 @@ body {
   background: url("main-hero.jpg") no-repeat center center;
   background-size: cover;
   height: 300px;
+}
+
+.phone {
+  width: 200px;
+}
+
+.footer {
+    background-color: rgb(50, 50, 170);
+}
+
+.footer-signup {
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.footer-list {
+    color: white;
+    margin-bottom: 10px;
 }
 
 button {
