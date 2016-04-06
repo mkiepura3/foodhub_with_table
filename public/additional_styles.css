@@ -11,22 +11,31 @@ body{
 .navigation{
   background-color: rgb(246, 52, 64);
   color: white;
+  padding-left: 10px;
 }
+
 .logo{
   text-transform: uppercase;
   font-family: 'Passion One', cursive;
   font-size: 32px;
 }
+
+.shopping{
+  font-size: 22px;
+}
+
 .hero{
   color: white;
   text-align: center;
   background: url("main-hero.jpg")
   no-repeat center center;
   background-size: cover;
-  height: 300px;
-  font-size:
+  height: 400px;
 }
 
+h1{
+  font-size: 24px;
+}
 .heading-row{
   text-align: center;
 }
@@ -52,4 +61,26 @@ button{
   height: 40px;
   width: 200px;
   border-radius: 5px
+}
+
+.screennames{
+  font-weight: bolder;
+}
+.download{
+  color: white;
+  text-align: center;
+  background: url("download-hero.jpg")
+  no-repeat center center;
+  background-size: cover;
+  height: 400px;
+  padding-bottom: 7px;
+}
+
+.download-sub{
+  font-size: 16.5pt;
+  font-weight: 400;
+}
+.badge{
+  height: 60px;
+  padding-top: 5px;
 }
