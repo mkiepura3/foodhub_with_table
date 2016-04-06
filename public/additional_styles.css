@@ -37,3 +37,48 @@ button {
 .how-to-cell {
   text-align: center;
 }
+
+.user-image {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.sidekick {
+  color: white;
+  text-align: center;
+  background: url(download-hero.jpg) no-repeat center center;
+  background-size: cover;
+  height: 400px;
+}
+
+.user-cell {
+  text-align: center;
+  vertical-align: top;
+  background-color: rgb(238, 238, 238);
+}
+
+.store-image {
+  width: 200px
+}
+
+.about-foodhub {
+  text-align: center;
+  vertical-align: top;
+}
+
+.footer {
+  background-color: rgb(50, 50, 170);
+  color: white;
+  vertical-align: top;
+
+}
+
+.title-content {
+background-color: rgb(246,52,64);
+color: white;
+}
+
+.logo {
+font-family: 'Passion One', cursive;
+font-size: 32px;
+}
