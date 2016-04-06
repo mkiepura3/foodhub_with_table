@@ -1,12 +1,22 @@
 .main-content {
   width: 100%;
 }
-
-td {
-  border: thin red solid;
+.heading-row {
+  text-align: center;
 }
+
 body {
   font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+h1, h2, h3, h4 {
+  font-weight: 700;
+}
+.top-format {
+  background-color: red;
+  color: white;
+  vertical-align: middle;
 }
 .hero {
 color: white;
@@ -14,12 +24,91 @@ color: white;
   background: url("main-hero.jpg") no-repeat center center;
   background-size: cover;
   height: 300px;
-
 }
- button {
-   background-color: rgb(0, 126, 229);
-   color: white;
-   height: 40px;
-   width: 200px;
-   border-radius: 5px;
+.navbar-foodhub {
+    font-family: "Passion One";
+    font-size: xx-large;
+}
+.how-to-cell {
+  text-align: center;
+}
+.how-to-image {
+  width: 200px;
+  border-radius: 50%;
+}
+.sound-bites {
+  text-align: center;
+}
+ .user-image {
+     width: 50px;
  }
+ .round-image {
+    border-radius: 50%;
+}
+.sound-bites-content {
+  text-align: center;
+}
+.background-grey {
+  background-color: grey
+}
+.sound-bites, .why-order {
+    background-color: rgb(238, 238, 238);
+}
+.download-apps {
+    background: url("download-hero.jpg") no-repeat center center;
+    background-size: cover;
+    color: white;
+    height: 400px;
+    vertical-align: middle;
+}
+.centered {
+    text-align: center;
+}
+.app-store {
+  width: 200px;
+}
+.app-margin {
+  margin-bottom: 10px;
+}
+.spotlight-image {
+    width: 200px;
+}
+.why-order-margin {
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.footer {
+    background-color: rgb(50, 50, 170);
+    color: white;
+}
+td {
+    vertical-align: top;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: thin red solid;
+}
+.h4-footer {
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.button {
+    background-color: rgb(0,126,229);
+    width: 200px;
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    transition: all 0.2s ease-in-out;
+}
+.h4-footer {
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.li-footer {
+    color: white;
+    margin-bottom: 10px;
+}
