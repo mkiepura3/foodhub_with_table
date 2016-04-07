@@ -37,3 +37,22 @@ button{
   width: 200px;
   border-radius: 5px;
 }
+
+.sound-bites{
+    text-align: center;
+    background-color: rgb(238, 238, 238);
+}
+
+.user-image{
+  width: 50px;
+  border-radius: 50%;
+}
+
+.why-order{
+    text-align: center;
+    background-color: rgb(238, 238, 238);
+}
+
+.about-food{
+    text-align: center;
+}
