@@ -7,7 +7,7 @@ td {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;  
+  font-family: 'Montserrat', sans-serif;
 }
 
 .hero {
@@ -24,4 +24,26 @@ button {
   height: 40px;
   width: 200px;
   border-radius: 5px;
+}
+
+.cent {
+  text-align: center;
+}
+
+.download {
+  color: white;
+  text-align: center;
+  background: url("download-hero.jpg")no-repeat center center;
+  background-size: cover;
+  height: 300px;
+}
+
+.how-to-image {
+  width: 200px;
+  border-radius: 50%
+}
+
+.people {
+  width: 50px;
+  border-radius: 50%
 }
