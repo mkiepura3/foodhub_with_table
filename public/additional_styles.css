@@ -16,7 +16,10 @@ text-align: center;
 }
 
 td{
-  border: thin red solid
+  border: thin red solid;
+  padding-left: 10px;
+  padding-right: 10px;
+  vertical-align: top;
 }
 
 body{
@@ -43,6 +46,16 @@ button{
     background-color: rgb(238, 238, 238);
 }
 
+.download-apps {
+  background: url("download-hero.jpg") no-repeat center center;
+  background-size: cover;
+  color: white;
+  height: 400px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+
 .user-image{
   width: 50px;
   border-radius: 50%;
@@ -55,4 +68,8 @@ button{
 
 .about-food{
     text-align: center;
+}
+
+.footer{
+  background-color: rgb(50, 50, 170);
 }
