@@ -21,9 +21,10 @@ h1, h2, h3, h4 {
 .hero {
 color: white;
   text-align:center;
+  vertical-align: middle;
   background: url("main-hero.jpg") no-repeat center center;
   background-size: cover;
-  height: 300px;
+  height: 400px;
 }
 .navbar-foodhub {
     font-family: "Passion One";
