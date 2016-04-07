@@ -47,3 +47,25 @@ button {
   width: 50px;
   border-radius: 50%
 }
+
+.red {
+  background-color: red
+}
+
+.gray {
+  background-color: rgb(238, 238, 238);
+}
+
+.blue {
+  background-color: rgb(50, 50, 170);
+}
+
+.white_text {
+  color: white
+}
+
+.left_top {
+  font-family: 'Passion-One', cursive;
+  font-size: xx-large;
+  font-weight: bold;
+}
