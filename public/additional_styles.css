@@ -15,6 +15,23 @@
   text-align: center;
 }
 
+.sound-bites-image {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.sound-bites-cell {
+  text-align: center
+}
+
+.why-order-image {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.why-order-cell {
+  text-align: center;
+}
 td {
   border: thin red solid;
 }
@@ -37,4 +54,17 @@ button {
   height: 40px;
   width: 200px;
   border-radius: 5px;
+}
+
+.download {
+  color: white;
+  text-align: center;
+  background: url("download-hero.jpg")
+  no-repeat center center;
+  background-size: cover;
+  height: 300px;
+}
+
+.store-badge {
+  width: 200px;
 }
