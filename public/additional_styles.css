@@ -22,7 +22,10 @@
   width:auto;
   background-color: rgb(50, 50, 170);;
   height: 300px;
-  margin-top: 10px;
+}
+
+.footer-bullets{
+  margin-bottom: 10px;
 }
 
 .heading-row{
@@ -40,10 +43,15 @@
 }
 
 .download-image {
-  width: 150px;
+  width: 200px;
 
 }
 .how-to-cell {
+  text-align: center;
+}
+
+.sound-bites {
+  background-color: rgb(238, 238, 238);
   text-align: center;
 }
 td {
