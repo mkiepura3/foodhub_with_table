@@ -6,6 +6,15 @@
   text-align: center;
 }
 
+.navbar {
+  color: white;
+  background-color: rgb(246,52,64);
+}
+
+.nav_brand {
+  font-family: "Passion One";
+}
+
 .how-to-image {
   width: 200px;
   border-radius: 50%;
@@ -13,6 +22,10 @@
 
 .how-to-cell {
   text-align: center;
+}
+
+.sound-bites, .why-order {
+  background-color: rgb(238, 238, 238);
 }
 
 .sound-bites-image {
@@ -33,11 +46,13 @@
   text-align: center;
 }
 td {
+  vertical-align: top;
   border: thin red solid;
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
 }
 
 .hero {
@@ -67,4 +82,9 @@ button {
 
 .store-badge {
   width: 200px;
+}
+
+.footer {
+  color: white;
+  background-color: rgb(50, 50, 170);
 }

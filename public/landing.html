@@ -5,13 +5,14 @@
   <title>Foodhub</title>
   <link rel="stylesheet" href="additional_styles.css">
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 <body>
 
   <table class="main-content">
-    <tr> <!--Navigation -->
-      <td colspan="6">
+    <tr class="navbar"> <!--Navigation -->
+      <td colspan="6" class="nav_brand">
         FOODHUB
       </td>
 
@@ -20,7 +21,7 @@
       </td>
 
       <td colpsan="3">
-      <i class="fa fa-shopping-bag"></i>
+        <i class="fa fa-shopping-bag"></i>
       </td>
 
     </tr>
@@ -39,7 +40,9 @@
           </div>
 
           <div>
-            <input type="text">
+            <i class="fa fa-map-marker"></i>
+            <input type="text" placeholder="Street address, city, state">
+
           </div>
 
           <div>
@@ -92,7 +95,7 @@
       </td>
     </tr>
 
-    <tr> <!--Sound Bites Heading -->
+    <tr class="sound-bites"> <!--Sound Bites Heading -->
       <td colspan="12" class="heading-row">
         <h2>
           Sound bites
@@ -100,7 +103,7 @@
       </td>
     </tr>
 
-    <tr> <!--Sound Bites Content -->
+    <tr class="sound-bites"> <!--Sound Bites Content -->
       <td colspan="3" class="sound-bites-cell">
         <img src="user-1.jpg" alt="" class="sound-bites-image"/>
         <p>
@@ -154,7 +157,7 @@
       </td>
     </tr>
 
-    <tr> <!--Why Order Heading -->
+    <tr class="why-order"> <!--Why Order Heading -->
       <td colspan="12" class="heading-row">
         <h2>
           Why order with Foodhub?
@@ -162,7 +165,7 @@
       </td>
     </tr>
 
-    <tr> <!--Why Order Content -->
+    <tr class="why-order"> <!--Why Order Content -->
       <td colspan="4" class="why-order-cell">
         <img src="gem.jpg" alt="" class="why-order-image"/>
         <h4>
@@ -192,27 +195,81 @@
       </td>
     </tr>
 
-    <tr> <!--About -->
-      <td colspan="6">
-        19
+    <tr class="about"> <!--About -->
+      <td colspan="6" class="heading-row">
+        <h2>
+          About Foodhub
+        </h2>
       </td>
       <td colspan="6">
-        20
+        <p>
+          Foodhub helps you find and order food from wherever you are. How it works: you type in an address, we tell you the restaurants that deliver to that locale as well as showing you droves of pickup restaurants near you. Want to be more specific? Search by cuisine, restaurant name or menu item. We'll filter your results accordingly. When you find what you're looking for, you can place your order online or by phone, free of charge. Oh, and we also give you access to reviews, coupons, special deals and a 24/7 customer care team that tracks each order and makes sure you get exactly what you want.
+        </p>
       </td>
     </tr>
 
-    <tr> <!--Footer -->
+    <tr class="footer"> <!--Footer -->
       <td colspan="3">
-        21
+        <h4>
+          Sign up for special offers
+        </h4>
+
+        <form>
+          <div class="form-group">
+            <input type="email" placeholder="Email">
+          </div>
+
+          <div class="form-group">
+            <input type="number" placeholder="ZIP code">
+          </div>
+
+          <button type="submit" class="primary-button">Send me treats</button>
+        </form>
+
       </td>
       <td colspan="3">
-        22
+        <h4>
+          Get to know us
+        </h4>
+
+        <ul>
+          <li>About Grubhub</li>
+          <li>Our apps</li>
+          <li>Our blog</li>
+          <li>Careers</li>
+          <li>Investor relations</li>
+          <li>News</li>
+        </ul>
       </td>
       <td colspan="3">
-        23
+        <h4>
+          Help
+        </h4>
+
+        <ul>
+          <li>FAQ</li>
+          <li>Contact us</li>
+        </ul>
+
+        <h4>
+          Connect with us
+        </h4>
+        <ul>
+          <li>Facebook</li>
+          <li>Twitter</li>
+          <li>Instagram</li>
+          <li>YouTube</li>
+        </ul>
       </td>
       <td colspan="3">
-        24
+        <h4>
+          Partner with us
+        </h4>
+        <ul>
+          <li>For restaurants</li>
+          <li>For drivers</li>
+          <li>For corporate accounts</li>
+        </ul>
       </td>
     </tr>
   </table>
