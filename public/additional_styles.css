@@ -2,23 +2,60 @@
   width: 100%;
 }
 
+.navbar1 {
+  background-color: rgb(246,52,64);
+  vertical-align: middle;
+  color: white !important;
+  font-family: "Passion One";
+  font-size: xx-large;
+  text-decoration: none;
+}
+
+.navbar{
+  background-color: rgb(246,52,64);
+  vertical-align: middle;
+  color: white;
+}
+
+.footer-content{
+  color: white;
+  width:auto;
+  background-color: rgb(50, 50, 170);;
+  height: 300px;
+  margin-top: 10px;
+}
+
 .heading-row{
   text-align: center;
 }
 
 .how-to-image {
   width: 200px;
-  border-radius: 50%''
+  border-radius: 50%;
 }
 
+.sound-bites-image {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.download-image {
+  width: 150px;
+
+}
 .how-to-cell {
   text-align: center;
 }
 td {
   border:thin red solid
 }
+td { vertical-align: top;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat";
 }
 .hero {
   color: white;
@@ -26,6 +63,15 @@ body {
   background: url("main-hero.jpg") no-repeat center center;
  background-size: cover;
  height: 300px;
+}
+
+.hero2 {
+  color: white;
+  text-align: center;
+  background: url("download-hero.jpg") no-repeat center center;
+ background-size: cover;
+ height: 400px;
+ vertical-align: middle;
 }
 
 button {
