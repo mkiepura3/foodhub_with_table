@@ -89,6 +89,7 @@ li {
 
   .how-to-cell {
     text-align: center;
+    vertical-align: top;
   }
 
 
@@ -101,7 +102,10 @@ li {
     background-size: cover;
   }
   .app-images {
-    text-align:center;
+      text-align:center;
+  }
+  .app-images1 {
+    width: 200px;
   }
 
   .why-foodhub {
