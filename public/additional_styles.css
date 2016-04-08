@@ -75,5 +75,6 @@ button {
 }
 
 .align_top {
-  vertical-align: text-top;
+  padding-left: 10px;
+  vertical-align: top;
 }
