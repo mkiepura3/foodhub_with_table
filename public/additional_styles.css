@@ -75,6 +75,11 @@ button {
 }
 
 .align_top {
-  padding-left: 10px;
   vertical-align: top;
+  padding-left: 10px;
+
+}
+
+.align_center {
+  text-align: center;
 }
