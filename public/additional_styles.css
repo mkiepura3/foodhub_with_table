@@ -65,7 +65,15 @@ button {
 }
 
 .left_top {
-  font-family: 'Passion-One', cursive;
+  font-family: 'Passion One', cursive;
   font-size: xx-large;
   font-weight: bold;
+}
+
+.download_button {
+  width: 200px;
+}
+
+.align_top {
+  vertical-align: text-top;
 }
