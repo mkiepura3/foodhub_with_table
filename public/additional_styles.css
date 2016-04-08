@@ -1,3 +1,98 @@
-h1 {
-  color: blue;
+.maincontent {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+.navbar {
+    color: white !important;
+    background-color: red;
+}
+
+.navbar-brand {
+  font-family: 'Passion One', cursive;
+  font-size: xx-large;
+  color: white !important;
+  text-decoration: none;
+}
+
+.navbar-brand-a {
+  color: white !important;
+  text-decoration: none;
+}
+
+.heading-row {
+  text-align: center;
+}
+
+.how-to-image {
+  width: 200px;
+  border-radius: 200px
+}
+
+.how-to-cell {
+  text-align: center;
+}
+
+.sound-bite-image {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.grey-background{
+  background-color: rgb(238, 238, 238);
+}
+
+.download-apps {
+  background: url("download-hero.jpg") no-repeat center center;
+  background-size: cover;
+  color: white;
+  height: 400px;
+  vertical-align: middle;
+}
+
+.store-image{
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+td {
+  border: thin red solid;
+}
+
+body {font-family: 'Montserrat', sans-serif;
+}
+
+.hero {
+  color: white;
+  text-align: center;
+  background: url("main-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 400px;
+}
+
+button {
+  background-color: rgb(0, 126, 229);
+  color: white;
+  height: 40px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.footer {
+  vertical-align: text-top;
+  background-color: rgb(50, 50, 170);
+}
+
+.bullet-footer  {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.footer2 {
+  color: white;
+  margin-bottom: 10px;
 }
