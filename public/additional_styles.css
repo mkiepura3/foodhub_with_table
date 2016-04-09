@@ -14,6 +14,7 @@ td{
   background: url("main-hero.jpg") no-repeat center center;
   background-size:cover;
   height: 400px;
+  vertical-align: middle;
 }
 body{
   font-family: 'Montserrat', sans-serif;
@@ -43,17 +44,17 @@ button{
 .how-to-cell{
   text-align: center;
 }
-.navbar{
-  background-color: rgb(246,52,64);
-  color:white;
+.navbar-brand{
   font-family: 'Passion One', cursive;
   font-size: XX-large;
-  padding-left: 10px;
 }
-.othernavbar{
+.navbar{
   background-color: rgb(246,52,64);
-  color:white;
-  padding-left: 10px;
+  vertical-align: middle;
+}
+.navbar a{
+  color: white!important;
+  text-decoration: none;
 }
 .graybackground{
   background-color: rgb(238,238,238);
