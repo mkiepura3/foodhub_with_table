@@ -25,11 +25,25 @@ body{
   background: url(main-hero.jpg)
   no-repeat center center;
   background-size: cover;
-height: 300px;
+height: 400px;
+}
+
+.down_app{
+  color: white;
+  'Montserrat', sans-serif;
+    text-align: center;
+  background: url(download-hero.jpg)
+  no-repeat center center;
+  background-size: cover;
+height: 400px;
 }
 
 .soundbites_heading{
   text-align: center;
+}
+
+.app_store{
+width: 200px;
 }
 
 .testimonial{
@@ -37,18 +51,21 @@ height: 300px;
   vertical-align: top;
 }
 
+.soundbite_name{
+font-weight: bold;
+  }
+
 .user_image{
 width: 50px;
 border-radius: 50%;
-
 }
 
 
 button{
   background-color: rgb(0, 126, 229);
   color: white;
-  width: 200;
-  height: 40;
+  width: 200px;
+  height: 40px;
   border-radius: 5px;
 }
 .how_to{
@@ -58,8 +75,39 @@ button{
 .how-to-images{
   width: 200px;
   border-radius: 50%;
+  no-repeat center
 }
 
 .how_to_text{
   text-align: center;
+  }
+
+.about_foodhub{
+  vertical-align: top;
+  text-align: center;
+}
+
+.h4 {
+    display: block;
+    margin-left: 1.33em;
+    margin-top: : 1.33em;
+  }
+
+.footer{
+  background: darkblue;
+  color: white;
+  vertical-align: top;
+  }
+
+  .footer-heading{
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    vertical-align: top;
+  }
+
+.foot-list{
+  color: white
+  margin-bottom: 10px;
   }
