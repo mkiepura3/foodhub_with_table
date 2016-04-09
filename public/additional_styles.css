@@ -76,6 +76,7 @@ button{
   background: url("download-hero.jpg") no-repeat center center;
   background-size:cover;
   height: 400px;
+  vertical-align: middle;
 }
 .whycontent{
   border-radius: 50%;
