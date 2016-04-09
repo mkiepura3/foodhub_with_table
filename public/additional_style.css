@@ -1,8 +1,42 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
 .main-content{
   width: 100%;
 }
 
-.heading-row{
+td{
+  border: thin red solid;
+}
+
+.navigation{
+  background-color: rgb(246,52,64);
+  color: white;
+}
+
+.navigation-title{
+  font-family: 'Passion One', cursive;
+  font-size: xx-large;
+}
+
+.hero-main {
+  color: white;
+  text-align: center;
+  background: url("main-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 300px;
+}
+
+button {
+  background-color: rgb(8, 126, 229);
+  color: white;
+  height: 40px;
+  width: 200px;
+  border-radius:5px;
+}
+
+.how-to-row{
   text-align: center;
 }
 
@@ -15,27 +49,54 @@
   border-radius:50%;
 }
 
-td{
-  border: thin red solid;
-}
-
-body{
-    font-family: 'Montserrat', sans-serif;
-}
-
-.hero {
-  color: white;
-  font-family: 'Montserrat', sans-serif;
+.sound-bites-row{
+  background-color: rgb(238, 238, 238);
   text-align: center;
-  background: url("main-hero.jpg"); no-repeat center center;
- background-size: cover;
- height: 300px;
 }
 
-button {
-  background-color: rgb(8, 126, 229);
+.sound-bites-cell{
+  background-color: rgb(238, 238, 238);
+  text-align: center;
+}
+
+.sound-bites-image{
+  width: 50px;
+  border-radius: 50%;
+}
+
+.hero-download {
   color: white;
-  height: 40px;
+  text-align: center;
+  background: url("download-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 300px;
+}
+
+.badge{
+  height: 60px;
+}
+
+.why-order-row{
+  background-color: rgb(238, 238, 238);
+  text-align: center;
+}
+
+.why-order-cell{
+  background-color: rgb(238, 238, 238);
+  text-align: center;
+}
+
+.why-order-image{
   width: 200px;
-  border-radius:5px;
+  border-radius:50%;
+}
+
+.about-left{
+  text-align: center;
+}
+
+.footer{
+  background-color: rgb(50,50,170);
+  color: white;
+  vertical-align: top;
 }
