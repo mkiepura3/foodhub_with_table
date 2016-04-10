@@ -5,7 +5,9 @@ body {
 }
 
 h1, h2, h3, h4 {
-  font-weight: bold;
+  font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 .main-content {
@@ -99,6 +101,7 @@ td {
 .store-badge {
   width: 200px;
 }
+
 
 .h4-footer  {
   color: white;
