@@ -24,11 +24,17 @@ button {
 }
 
 body {
-font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
 }
 
 .heading-row {
-text-align: center;
+  text-align: center;
+}
+
+.sound-bites-heading-row {
+  text-align: center;
+  background-color: rgb(238, 238, 238);
 }
 
 .how-to-image{
@@ -38,4 +44,29 @@ text-align: center;
 
 .how-to-cell{
   text-align: center;
+}
+
+.sound-bites-image{
+  width: 50px;
+  border-radius: 50%;
+}
+
+.sound-bites-cell{
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+}
+
+.download {
+  background: url("download-hero.jpg") no-repeat center center;
+  color: white;
+  text-align: center;
+}
+
+.why-order-heading-row {
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+}
+
+.app-badge{
+  width: 200px;
 }
