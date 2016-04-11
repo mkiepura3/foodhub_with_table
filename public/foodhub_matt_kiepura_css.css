@@ -1,0 +1,10 @@
+/* CSS stylesheet for FoodHub for Matt Kiepura */
+
+.main-content {
+  width: 100%;
+
+}
+
+td {
+  border: thin red solid;
+}
